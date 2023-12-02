@@ -13,10 +13,10 @@ public class Fb {
         int n = s.nextInt();
         System.out.print("Fibonacci Series:");
 
-        for(int i = 1; i <= n; ++i) {
+        for(int i = 1; i <= n; i++) {
             a = b;
             b = c;
-            c += a;
+            c = a + c;
             System.out.print(" " + a + " ");
         }
 
