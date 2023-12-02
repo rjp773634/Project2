@@ -22,4 +22,6 @@ public class Calculator {
 
     public int sub(int x, int y) { return x - y; }
 
+    public  int mod(int x,int y){ return x%y;}
+
 }
